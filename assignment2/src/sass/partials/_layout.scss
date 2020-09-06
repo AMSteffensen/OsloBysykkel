@@ -20,24 +20,22 @@ body {
   background-color: $color-background;
 }
 
+header {
+    margin-left: 2em;
+}
+
 .wrapper {  
     display: flex;
     justify-content: center;
-    width: 450;
+    flex-direction: column;
 }
-
-.container {
-    margin: 1em;
-    justify-self: center;
-    width: 400px;
-}
-
-
 
 .footer {
-    background-color: $color-secondary;
-    height: 30%;
+    bottom: 0;
+    height: 4em;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
-    padding-bottom: 2em;
 }
+

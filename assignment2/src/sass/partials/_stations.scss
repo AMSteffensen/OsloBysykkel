@@ -1,0 +1,16 @@
+.stations {
+    margin: 2em;
+    background-color: white;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    text-align: center;
+    margin: 1em;
+    &__list {
+        box-shadow: $color-ui-shadow;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

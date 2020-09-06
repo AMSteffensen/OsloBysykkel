@@ -1,18 +1,18 @@
 .btn {
-    padding: 1em;
+    padding: 1em 1em;
     border: none;
-    margin: 1em;
+    width: 80%;
     color: $color-ui-primary;
 
     &-primary {
-        background-color: $color-primary;
+        background-color: $color-secondary;
+        box-shadow: $color-ui-shadow;
+  
     }
 
     &-secondary {
         background-color: $color-primary;
         color: $color-ui-primary;
-        opacity:0.5;
-        padding: -0.5em;
-        margin: 20px;
+        box-shadow: $color-ui-shadow;
     }
 }
