@@ -1,16 +1,18 @@
 .stations {
-    margin: 2em;
-    background-color: white;
+   
+    background-color: $color-ui-card;
     list-style-type: none;
     list-style-position: outside;
     list-style-image: none;
     text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 1em;
     &__list {
         box-shadow: $color-ui-shadow;
-        padding: 2em;
+  
         display: flex;
         flex-direction: column;
+        margin-bottom: 1em;
     }
 
     &__bikes {
@@ -19,6 +21,11 @@
 
     &__count {
         font-size: 3rem;
+        color: $color-primary;
+    }
+
+    &__icons {
+        font-size: 1.5em;
     }
 
 }

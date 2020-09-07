@@ -1,12 +1,7 @@
-import React, {
-  useEffect,
-  useState,
-} from 'react';
+import React from 'react';
 import './sass/style.scss';
-//import StationsComponent from './components/stations/StationsComponent';
-//import StationStatus from './components/stations/StationStatus';
+
 import {StationList} from "./components/stations/StationList";
-import {useData, STATIONS, STATUS} from "./constants/api/OsloBysykkel"
 
 function App() {
   return (
@@ -17,10 +12,12 @@ function App() {
         <h2>Bra for deg, bra for Oslo!</h2>
       </header>
       <main>
-        <div className="stations wrapper">
+        <div className="wrapper">
+        <div className="stations">
         {
             <StationList/>
         }
+        </div>
         </div>
       </main>
     </div>
