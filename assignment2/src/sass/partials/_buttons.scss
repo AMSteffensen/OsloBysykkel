@@ -1,18 +1,21 @@
 .btn {
     padding: 1em 1em;
+    margin-top: 1em;
     border: none;
-    width: 80%;
+    width: 35%;
+    margin-left: 2em;
+    border-radius: 25px;
     color: $color-ui-primary;
 
     &-primary {
         background-color: $color-secondary;
         box-shadow: $color-ui-shadow;
-  
     }
 
     &-secondary {
         background-color: $color-primary;
         color: $color-ui-primary;
         box-shadow: $color-ui-shadow;
+        opacity: 75%;
     }
 }

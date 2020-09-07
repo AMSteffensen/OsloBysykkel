@@ -5,12 +5,20 @@
     list-style-position: outside;
     list-style-image: none;
     text-align: center;
-    margin: 1em;
+    font-size: 1.5rem;
     &__list {
         box-shadow: $color-ui-shadow;
         padding: 2em;
         display: flex;
         flex-direction: column;
+    }
+
+    &__bikes {
+       margin-left: 1em;
+    }
+
+    &__count {
+        font-size: 3rem;
     }
 
 }
