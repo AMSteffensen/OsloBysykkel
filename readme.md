@@ -1,3 +1,2 @@
-# Work Applicaiton Assignment
-
-This project is for a Job applicaiton. 
+This React application Uses Oslo Bysykkel API
+Deployed to netlify: amazing-bassi-7de68c.netlify.app/
